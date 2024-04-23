@@ -12,7 +12,7 @@ const firebaseConfig = {
   storageBucket: "web-profile-svkit.appspot.com",
   messagingSenderId: "59611371453",
   appId: "1:59611371453:web:90d98f5ce396cc22e3e4d4",
-  measurementId: "G-GM87Q6FQEN",
+  measurementId: "G-GM87Q6FQEN"
 };
 
 export const app = initializeApp(firebaseConfig);

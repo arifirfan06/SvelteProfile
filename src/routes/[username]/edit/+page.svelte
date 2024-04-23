@@ -90,7 +90,7 @@
       <p>
         Profile Link:
         <a href={`/${$userData?.username}`} class="link link-accent">
-          https://kung.foo/{$userData?.username}
+          https://choo.choo/{$userData?.username}
         </a>
       </p>
     </div>
