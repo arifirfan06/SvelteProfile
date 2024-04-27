@@ -69,7 +69,8 @@ interface UserData {
 
 export const userData: Readable<UserData | null> = derived(user, ($user, set) => {
   if ($user) {
-    return docStore<UserData>(`users/${$user.uid}`).subscribe(set)
+    // console.log("USR",$user)
+    return docStore<UserData>(`users/${$user.uid}`).subscribe(data => set(data))
   }
   else {
     set(null)

@@ -39,11 +39,6 @@
       published: true,
       bio: "",
       links: [
-        {
-          title: "VLink",
-          url: "https://spacebird.tech",
-          icon: "custom",
-        },
       ],
     });
     batch.commit()

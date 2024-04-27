@@ -90,14 +90,14 @@
       <p>
         Profile Link:
         <a href={`/${$userData?.username}`} class="link link-accent">
-          https://choo.choo/{$userData?.username}
+          https://choochoo.my.id/{$userData?.username}
         </a>
       </p>
     </div>
 
     <div class="text-center my-4">
       <a class="btn btn-outline btn-xs" href="/login/photo">Change photo</a>
-      <a class="btn btn-outline btn-xs" href={`/${$userData.username}/bio`}
+      <a class="btn btn-outline btn-xs" href={`/${$userData.username}/choobio`}
         >Edit Bio</a
       >
     </div>
